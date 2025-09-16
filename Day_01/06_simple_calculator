@@ -1,0 +1,17 @@
+# Program 6: Simple Calculator
+# Author: Mayank Joshi
+# Date: 15-09-2025
+# Description: Takes two numbers, performs basic arithmetic operations
+
+num1 = int(input("Enter the first number: "))
+num2 = int(input("Enter the second number: "))
+
+print(f"Addition of {num1} + {num2} = {num1 + num2}")
+print(f"Subtraction of {num1} - {num2} = {num1 - num2}")
+print(f"Multiplication of {num1} x {num2} = {num1 * num2}")
+
+if num2 != 0:
+    print(f"Division of {num1} / {num2} = {num1 / num2}")
+    print(f"Modulo of {num1} % {num2} = {num1 % num2}")
+else:
+    print("Division and modulo not possible (cannot divide by zero)")
